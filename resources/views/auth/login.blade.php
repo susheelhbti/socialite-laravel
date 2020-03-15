@@ -57,6 +57,7 @@
                                     {{ __('Login') }}
                                 </button>
                                 <a href="{{ URL::to('/login/github') }}" class="btn btn-primary"><i class="fab fa-github"></i>{{ __(' Login with Github') }}</a>
+                                <a href="{{ URL::to('/login/facebook') }}" class="btn btn-primary"><i class="fab fa-facebook"></i>{{ __(' Login with Facebook') }}</a>
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
